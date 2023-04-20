@@ -1,5 +1,6 @@
 const $app = document.getElementById("app");
 const API = "https://api.escuelajs.co/api/v1/products?offset=5&limit=10";
+//https://api.pexels.com/v1/photos/
 
 const main = async () => {
     const response = await fetch (API);
